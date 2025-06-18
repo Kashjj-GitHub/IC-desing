@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:{G:/Anteproyectos para pong/Constraints/Constraints_Project 4.xdc} rfile:{../../../../Constraints/Constraints_Project 4.xdc} id:1} [current_design]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W5 [get_ports i_clk]
+set_property src_info {type:XDC file:1 line:48 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports o_LED_1]
+set_property src_info {type:XDC file:1 line:125 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports i_Switch_1]
