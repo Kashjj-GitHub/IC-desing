@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jul  8 15:43:19 2025
+# Process ID: 9368
+# Current directory: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 5 - Seven Segment Display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15120 G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 5 - Seven Segment Display\Project 5 - Seven Segment Display.xpr
+# Log file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 5 - Seven Segment Display/vivado.log
+# Journal file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 5 - Seven Segment Display\vivado.jou
+# Running On        :KASHJJ-PC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12600K
+# CPU Frequency     :3686 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16980 MB
+# Swap memory       :18253 MB
+# Total Virtual     :35234 MB
+# Available Virtual :14177 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 5 - Seven Segment Display/Project 5 - Seven Segment Display.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 5 - Seven Segment Display'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 5 - Seven Segment Display/Project 5 - Seven Segment Display.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1746.465 ; gain = 320.094
+update_compile_order -fileset sources_1
+save_project_as {Nandland Go Board Project 7 - UART Receiver} {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver} -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver'
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.cache/ip 
+update_files -from_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 7.xdc}} -to_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 5.xdc}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 5.xdc' with file 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 7.xdc'.
+close [ open {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.srcs/sources_1/new/UART_RX.sv} w ]
+add_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.srcs/sources_1/new/UART_RX.sv}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.srcs/sources_1/new/Debounce_Switch.sv}}] -no_script -reset -force -quiet
+remove_files  {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.srcs/sources_1/new/Debounce_Switch.sv}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\Binary_To_7Segment.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\Binary_To_7Segment.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.srcs/utils_1/imports/synth_1/top.dcp with file G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.runs/synth_1/top.dcp
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\Binary_To_7Segment.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+[Tue Jul  8 18:32:12 2025] Launched synth_1...
+Run output will be captured here: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Nandland Go Board Project 7 - UART Receiver/Nandland Go Board Project 7 - UART Receiver.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\Binary_To_7Segment.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Nandland Go Board Project 7 - UART Receiver\Nandland Go Board Project 7 - UART Receiver.srcs\sources_1\new\UART_RX.sv:]
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  8 20:28:51 2025...
