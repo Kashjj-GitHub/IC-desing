@@ -1,0 +1,121 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Aug  7 16:18:22 2025
+| Host         : KASHJJ-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    43 |
+|    Minimum number of control sets                        |    43 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   208 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    43 |
+| >= 0 to < 4        |    17 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     7 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    11 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              49 |           17 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             164 |           46 |
+| Yes          | No                    | No                     |              71 |           34 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             116 |           34 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+----------------------------------------------------------------------+----------------------------------------------------------------------+------------------+----------------+--------------+
+|    Clock Signal   |                             Enable Signal                            |                           Set/Reset Signal                           | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------+----------------------------------------------------------------------+----------------------------------------------------------------------+------------------+----------------+--------------+
+|  w_clk_25MHz_BUFG |                                                                      | VGA_Sync_Porch_Inst/Sync_To_Count_Instance/o_VSync0                  |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Binary_To_7_Segment_Display_Instance/r_Anodes[1]_i_1_n_0             |                1 |              1 |         1.00 |
+|  w_clk_25MHz_BUFG |                                                                      | VGA_Sync_Porch_Inst/Sync_To_Count_Instance/o_HSync0                  |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[2]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[0]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[1]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | Switch_P2_Up/r_State1_out                                            |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | Switch_Start/r_State1_out                                            |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | Switch_P1_Dn/r_State1_out                                            |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | Switch_P1_Up/r_State1_out                                            |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | Switch_P2_Dn/r_State1_out                                            |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[7]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[5]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[6]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[4]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_RX_Byte[3]_i_1_n_0                                |                                                                      |                1 |              1 |         1.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Binary_To_7_Segment_Display_Instance/r_Digit_Index_reg[0]_0          |                1 |              2 |         2.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Binary_To_7_Segment_Display_Instance/r_Digit_Index_reg_n_0_[1]       |                1 |              4 |         4.00 |
+|  w_clk_25MHz_BUFG | Pong_Inst/r_P1_Score                                                 |                                                                      |                1 |              4 |         4.00 |
+|  w_clk_25MHz_BUFG | Pong_Inst/r_P2_Score                                                 |                                                                      |                1 |              4 |         4.00 |
+|  w_clk_25MHz_BUFG | Pong_Inst/P1_Inst/sel                                                |                                                                      |                3 |              6 |         2.00 |
+|  w_clk_25MHz_BUFG | Pong_Inst/P2_Inst/o_Paddle_Y[5]_i_1__0_n_0                           |                                                                      |                3 |              6 |         2.00 |
+|  i_clk_IBUF_BUFG  | UART_RX_Instance/r_Clock_Count[8]_i_2_n_0                            | UART_RX_Instance/r_Clock_Count[8]_i_1__0_n_0                         |                2 |              7 |         3.50 |
+|  i_clk_IBUF_BUFG  | UART_TX_Instance/r_TX_Data                                           |                                                                      |                2 |              8 |         4.00 |
+|  w_clk_25MHz_BUFG |                                                                      | VGA_Sync_Pulses_Inst/r_Col_Count[9]_i_1__0_n_0                       |                3 |             10 |         3.33 |
+|  w_clk_25MHz_BUFG | Pong_Inst/Sync_To_Count_Inst/p_0_in                                  |                                                                      |                5 |             10 |         2.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | UART_TX_Instance/r_Clock_Count[9]_i_1_n_0                            |                3 |             10 |         3.33 |
+|  w_clk_25MHz_BUFG | VGA_Sync_Pulses_Inst/r_Col_Count[9]_i_1__0_n_0                       |                                                                      |                3 |             10 |         3.33 |
+|  w_clk_25MHz_BUFG |                                                                      | Pong_Inst/Sync_To_Count_Inst/p_0_in                                  |                3 |             10 |         3.33 |
+|  w_clk_25MHz_BUFG |                                                                      | VGA_Sync_Porch_Inst/Sync_To_Count_Instance/r_Col_Count[9]_i_1__1_n_0 |                3 |             10 |         3.33 |
+|  w_clk_25MHz_BUFG | VGA_Sync_Porch_Inst/Sync_To_Count_Instance/r_Col_Count[9]_i_1__1_n_0 |                                                                      |                3 |             10 |         3.33 |
+|  i_clk_IBUF_BUFG  |                                                                      | Binary_To_7_Segment_Display_Instance/r_Clock_Count[0]_i_1_n_0        |                4 |             15 |         3.75 |
+|  i_clk_IBUF_BUFG  |                                                                      | Switch_P1_Up/p_0_in                                                  |                5 |             20 |         4.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Switch_P1_Dn/p_0_in                                                  |                5 |             20 |         4.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Switch_P2_Up/p_0_in                                                  |                5 |             20 |         4.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Switch_P2_Dn/p_0_in                                                  |                5 |             20 |         4.00 |
+|  i_clk_IBUF_BUFG  |                                                                      | Switch_Start/p_0_in                                                  |                5 |             20 |         4.00 |
+|  w_clk_25MHz_BUFG | Pong_Inst/r_Game_Active_reg_n_0                                      | Pong_Inst/Pong_Ball_Ctrl_Inst/r_Ball_Count                           |                6 |             21 |         3.50 |
+|  w_clk_25MHz_BUFG |                                                                      |                                                                      |                9 |             22 |         2.44 |
+|  w_clk_25MHz_BUFG | Pong_Inst/Pong_Ball_Ctrl_Inst/r_Ball_Y_Prev[5]_i_2_n_0               | Pong_Inst/Pong_Ball_Ctrl_Inst/clear                                  |               10 |             24 |         2.40 |
+|  i_clk_IBUF_BUFG  |                                                                      |                                                                      |               10 |             29 |         2.90 |
+|  w_clk_25MHz_BUFG | Switch_P1_Up/w_Paddle_Count_En                                       | Pong_Inst/P1_Inst/r_Paddle_Count[31]_i_1_n_0                         |                8 |             32 |         4.00 |
+|  w_clk_25MHz_BUFG | Switch_P2_Up/r_State_reg_0                                           | Pong_Inst/P2_Inst/r_Paddle_Count[31]_i_1_n_0                         |                8 |             32 |         4.00 |
++-------------------+----------------------------------------------------------------------+----------------------------------------------------------------------+------------------+----------------+--------------+
+
+

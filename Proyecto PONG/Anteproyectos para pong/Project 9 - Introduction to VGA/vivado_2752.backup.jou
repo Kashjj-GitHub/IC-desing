@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Jul 28 14:27:58 2025
+# Process ID: 2752
+# Current directory: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 9 - Introduction to VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27984 G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 9 - Introduction to VGA\Project 9 - Introduction to VGA.xpr
+# Log file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 9 - Introduction to VGA/vivado.log
+# Journal file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 9 - Introduction to VGA\vivado.jou
+# Running On        :KASHJJ-PC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12600K
+# CPU Frequency     :3686 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16980 MB
+# Swap memory       :18253 MB
+# Total Virtual     :35234 MB
+# Available Virtual :15642 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 9 - Introduction to VGA/Project 9 - Introduction to VGA.xpr}
+update_compile_order -fileset sources_1

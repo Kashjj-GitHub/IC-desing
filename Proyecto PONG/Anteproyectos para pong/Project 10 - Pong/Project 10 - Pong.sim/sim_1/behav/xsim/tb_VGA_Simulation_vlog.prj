@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Project 9 - Introduction to VGA.srcs/sources_1/new/Clock_100MHz_to_25MHz.sv" \
+"../../../../Project 9 - Introduction to VGA.srcs/sources_1/new/VGA_Sync_Pulses.sv" \
+"../../../../Project 9 - Introduction to VGA.srcs/sim_1/new/tb_VGA_Simulation.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
