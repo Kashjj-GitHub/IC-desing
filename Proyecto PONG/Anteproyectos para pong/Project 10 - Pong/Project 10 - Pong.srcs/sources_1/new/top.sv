@@ -72,14 +72,15 @@ module top(
     wire [c_VIDEO_WIDTH-1:0] w_Blu_Video_Porch;
     
 
-    reg [3:0] r_TP_Index = 0;
-
+    wire [7:0] w_P1_Score;
+    wire [7:0] w_P2_Score;
     // ==================================================
     // Preparar datos para mostrar en el display
     // Solo se muestra el byte recibido (8 bits bajos)
     // Se rellenan 8 bits altos con ceros para completar 16 bits
     // ==================================================
-    assign  w_Display_Data = {8'h00, w_RX_Byte};
+    assign w_Display_Data = {w_P1_Score, w_P2_Score};
+
 
     // Debounce All Switches
      Debounce_Switch Switch_P1_Up
@@ -210,7 +211,9 @@ Pong_Top #(.c_TOTAL_COLS(c_TOTAL_COLS),
    .o_VSync(w_VSync_Pong),
    .o_Red_Video(w_Red_Video_Pong),
    .o_Grn_Video(w_Grn_Video_Pong),
-   .o_Blu_Video(w_Blu_Video_Pong));
+   .o_Blu_Video(w_Blu_Video_Pong),
+   .o_P1_Score(w_P1_Score),
+   .o_P2_Score(w_P2_Score));
        
     VGA_Sync_Porch  #(.VIDEO_WIDTH(c_VIDEO_WIDTH),
                       .TOTAL_COLS(c_TOTAL_COLS),

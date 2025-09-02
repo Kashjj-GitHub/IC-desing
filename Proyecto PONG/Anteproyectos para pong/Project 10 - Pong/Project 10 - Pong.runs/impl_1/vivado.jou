@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Aug  7 16:18:53 2025
-# Process ID: 24288
+# Start of session at: Tue Sep  2 16:51:11 2025
+# Process ID: 32244
 # Current directory: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 10 - Pong/Project 10 - Pong.runs/impl_1
 # Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
 # Log file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 10 - Pong/Project 10 - Pong.runs/impl_1/top.vdi
@@ -17,8 +17,8 @@
 # CPU Physical cores:10
 # CPU Logical cores :16
 # Host memory       :16980 MB
-# Swap memory       :15032 MB
-# Total Virtual     :32012 MB
-# Available Virtual :8489 MB
+# Swap memory       :35491 MB
+# Total Virtual     :52472 MB
+# Available Virtual :25301 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

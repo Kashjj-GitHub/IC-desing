@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jul 15 17:58:45 2025
+# Process ID: 29908
+# Current directory: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 7 - UART Receiver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22180 G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 7 - UART Receiver\Project 7 - UART Receiver.xpr
+# Log file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 7 - UART Receiver/vivado.log
+# Journal file: G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 7 - UART Receiver\vivado.jou
+# Running On        :KASHJJ-PC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12600K
+# CPU Frequency     :3686 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16980 MB
+# Swap memory       :18253 MB
+# Total Virtual     :35234 MB
+# Available Virtual :15886 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 7 - UART Receiver/Project 7 - UART Receiver.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 7 - UART Receiver'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 7 - UART Receiver/Project 7 - UART Receiver.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1732.203 ; gain = 501.555
+update_compile_order -fileset sources_1
+save_project_as {Project 8 - UART Transmitter} {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 8 - UART Transmitter} -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 8 - UART Transmitter'
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 8 - UART Transmitter/Project 8 - UART Transmitter.cache/ip 
+update_files -from_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 8.xdc}} -to_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 7.xdc}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 7.xdc' with file 'G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Constraints/Constraints_Project 8.xdc'.
+close [ open {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 8 - UART Transmitter/Project 8 - UART Transmitter.srcs/sources_1/new/UART_TX.sv} w ]
+add_files {{G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 8 - UART Transmitter/Project 8 - UART Transmitter.srcs/sources_1/new/UART_TX.sv}}
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 8 - UART Transmitter\Project 8 - UART Transmitter.srcs\sources_1\new\UART_TX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 8 - UART Transmitter\Project 8 - UART Transmitter.srcs\sources_1\new\top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 8 - UART Transmitter\Project 8 - UART Transmitter.srcs\sources_1\new\UART_RX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 8 - UART Transmitter\Project 8 - UART Transmitter.srcs\sources_1\new\UART_TX.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [G:\IC Desing\IC-desing\Proyecto PONG\Anteproyectos para pong\Project 8 - UART Transmitter\Project 8 - UART Transmitter.srcs\sources_1\new\UART_TX.sv:]
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 15 19:58:22 2025...

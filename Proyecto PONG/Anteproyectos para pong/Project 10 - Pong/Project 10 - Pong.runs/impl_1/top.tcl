@@ -106,7 +106,6 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 4
-  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 8  }
   open_checkpoint top_routed.dcp
   set_property webtalk.parent_dir {G:/IC Desing/IC-desing/Proyecto PONG/Anteproyectos para pong/Project 10 - Pong/Project 10 - Pong.cache/wt} [current_project]

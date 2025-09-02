@@ -18,12 +18,16 @@ module Pong_Top
    output reg       o_VSync,
    output [3:0] o_Red_Video,
    output [3:0] o_Grn_Video,
-   output [3:0] o_Blu_Video);
+   output [3:0] o_Blu_Video,
+   // Output Score
+   output [7:0] o_P1_Score,
+   output [7:0] o_P2_Score);
+   
  
   // Local Constants to Determine Game Play
   localparam c_GAME_WIDTH  = 40;
   localparam c_GAME_HEIGHT = 30;
-  localparam c_SCORE_LIMIT = 9;
+  localparam c_SCORE_LIMIT = 100;
   localparam c_PADDLE_HEIGHT = 6;
   localparam c_PADDLE_COL_P1 = 0;  // Col Index of Paddle for P1
   localparam c_PADDLE_COL_P2 = c_GAME_WIDTH-1; // Index for P2
@@ -45,8 +49,8 @@ module Pong_Top
   wire       w_Draw_Ball, w_Draw_Any;
   wire [5:0] w_Ball_X, w_Ball_Y;
  
-  reg [3:0] r_P1_Score = 0;
-  reg [3:0] r_P2_Score = 0;
+  reg [6:0] r_P1_Score = 0;
+  reg [6:0] r_P2_Score = 0;
 
   reg      r_Game_Active = 0; 
   
@@ -148,23 +152,30 @@ module Pong_Top
     P1_WINS :
     begin
       if (r_P1_Score == c_SCORE_LIMIT-1)
-        r_P1_Score <= 0;
+        begin
+          r_P1_Score <= 0;
+          r_SM_Main <= CLEANUP;
+        end
       else
-      begin
-        r_P1_Score <= r_P1_Score + 1;
-        r_SM_Main <= CLEANUP;
-      end
+        begin
+          r_P1_Score <= r_P1_Score + 1;
+          r_SM_Main <= CLEANUP;
+        end
     end
+
  
     P2_WINS :
     begin
       if (r_P2_Score == c_SCORE_LIMIT-1)
-        r_P2_Score <= 0;
+        begin
+          r_P2_Score <= 0;
+          r_SM_Main <= CLEANUP;
+        end
       else
-      begin
-        r_P2_Score <= r_P2_Score + 1;
-        r_SM_Main <= CLEANUP;
-      end
+        begin
+          r_P2_Score <= r_P2_Score + 1;
+          r_SM_Main <= CLEANUP;
+        end
     end
  
     CLEANUP :
@@ -181,5 +192,10 @@ module Pong_Top
   assign o_Red_Video = w_Draw_Any ? 4'b1111 : 4'b0000;
   assign o_Grn_Video = w_Draw_Any ? 4'b1111 : 4'b0000;
   assign o_Blu_Video = w_Draw_Any ? 4'b1111 : 4'b0000;
+  
+  assign o_P1_Score [7:4] = r_P1_Score / 10;
+  assign o_P1_Score [3:0] = r_P1_Score % 10;
+  assign o_P2_Score [7:4] = r_P2_Score / 10;
+  assign o_P2_Score [3:0] = r_P2_Score % 10;
  
 endmodule // Pong_Top
